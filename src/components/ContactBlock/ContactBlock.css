@@ -1,0 +1,32 @@
+.contactsBlock__container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.icons__container{
+    width: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.penSVG{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+.basketSVG{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+.penSVG:hover{
+    opacity: 0.4;
+}
+.basketSVG:hover{
+    opacity: 0.4;
+}

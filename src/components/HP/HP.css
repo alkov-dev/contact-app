@@ -1,0 +1,21 @@
+
+.home__container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.name__input{
+    margin: 20px;
+}
+.mail__input{
+    margin: 20px;
+}
+.phone__input{
+    margin: 20px;
+}
+.add__button{
+width: 40px;
+   margin: auto;
+   text-align: start;
+}
