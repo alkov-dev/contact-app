@@ -5,6 +5,8 @@
     margin-bottom: 25px;
     margin-left: 20px;
     margin-right: 20px;
+    border-top: 4px solid lightblue;
+    padding-top: 20px;
 }
 
 .icons__container{
@@ -29,4 +31,24 @@
 }
 .basketSVG:hover{
     opacity: 0.4;
+}
+.avatarSVG{
+    width: 50px;
+    height: 50px; 
+}
+
+.description__block{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    width: 200px;
+    align-items: center;
+}
+.description{
+    margin-left: 20px;
+    text-align: start;
+    color: darkslateblue;
+}
+.description__name{
+    font-weight: 600;
 }

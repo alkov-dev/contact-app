@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url('../my-app/src/fonts/ProximaNova-Regular.eot');
+    src: url('../my-app/src/fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../my-app/src/fonts/ProximaNova-Regular.woff') format('woff'),
+    url('../my-app/src/fonts/ProximaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
