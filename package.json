@@ -32,12 +32,11 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "authserver": "npx json-server --watch public/auth.json --port 3002",
-    "nodemonstart": "nodemon index.js"
   },
   "eslintConfig": {
     "extends": [
