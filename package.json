@@ -31,11 +31,11 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "json-server": "npx json-server --watch public/auth.json --port 3002",
+    "json-server": "npx json-server --watch auth.json --port 3002"
   },
   "eslintConfig": {
     "extends": [
