@@ -15,7 +15,6 @@
     "express": "^4.17.2",
     "json-server": "^0.17.0",
     "mongoose": "^6.2.0",
-    "nodemon": "^2.0.15",
     "react": "^17.0.2",
     "react-content-loader": "^6.0.3",
     "react-dom": "^17.0.2",
@@ -32,12 +31,11 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "authserver": "npx json-server --watch public/auth.json --port 3002",
-    "nodemonstart": "nodemon index.js"
+    "json-server": "npx json-server --watch public/auth.json --port 3002"
   },
   "eslintConfig": {
     "extends": [
