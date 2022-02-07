@@ -5,6 +5,5 @@
 5 Запускаем приложение: npm run start
 6 Открываем в браузере по адресу: https://localhost:3000/login
 
-Приложение можно протестировать на сайте:
-https://contact-manager-main.herokuapp.com
+
 
